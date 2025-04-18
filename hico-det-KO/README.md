@@ -28,19 +28,19 @@ This demo runs the MATLAB evaluation script and replicates our results in the pa
 
 1. Download HICO-DET (7.5G):
 
-    ```Shell
+
     1. If you have not downloaded the dataset before, run the following script.
         ```bash
         cd /path/to/hico-det-KO/data
         bash download.sh
-        ```
+	```
     2. If you have previously downloaded the dataset, simply create a soft link.
         ```bash
         cd /path/to/hico-det-KO/data
         ln -s /path/to/hicodet_20160224_det ./hico_20160224_det
         ```
     
-    ```
+
 
     This will populate the `data` folder with `hico_20160224_det`.
 
@@ -53,11 +53,13 @@ This demo runs the MATLAB evaluation script and replicates our results in the pa
 
     This will populate the `output` folder with `precomputed_hoi_detection` and set up a set of symlinks.
 
-"YOU NEED MATLAB tools"
-check your local
-    ```Shell
+"YOU NEED to install MATLAB tools by yourself"
+
+check your MATLAB
+    ```bash
     which matlab
-    
+    ```
+    ```bash
     #to start matlab, just type
     matlab
     ```
