@@ -56,12 +56,11 @@ This demo runs the MATLAB evaluation script and replicates our results in the pa
 "YOU NEED to install MATLAB tools by yourself"
 
 check your MATLAB
-    ```Shell
+    ```bash
     $ which matlab
     #to start matlab, just type
     $ matlab
     ```
-    
     
 3. Evaluating on 600 classes is tedious, so we use `parfor` to speed up. Uncomment and set `poolsize` in `config.m` according to your need, or leave it commented out if you want MATLAB to set it automatically.
 
