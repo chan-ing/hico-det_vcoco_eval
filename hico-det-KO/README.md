@@ -59,7 +59,7 @@ check your MATLAB
     ```bash
     which matlab
     ```
-    ```bash
+    ```
     #to start matlab, just type
     matlab
     ```
