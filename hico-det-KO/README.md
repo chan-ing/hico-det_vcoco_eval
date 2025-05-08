@@ -58,7 +58,6 @@ This demo runs the MATLAB evaluation script and replicates our results in the pa
 check your MATLAB
     ```Shell
     $ which matlab
-    ```
     #to start matlab, just type
     $ matlab
     ```
