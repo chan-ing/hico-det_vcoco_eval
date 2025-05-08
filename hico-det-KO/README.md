@@ -76,5 +76,8 @@ cached file direction : hico-det-KO/output/pvic/hico_det_test_2015/detections_01
 6. You can run the evaluation for other experiments (which appear in the paper) by editing `eval_run.m` and rerunning it. 
 For example, comment the line started with `exp_name = 'rcnn_caffenet_ho_pconv_ip1_s';` and uncomment the line started with `exp_name = 'rcnn_caffenet_ho_pconv_ip1';`.
 
-
+7. RUN
+   ```bash
+   >> eval_run
+   ```
 
