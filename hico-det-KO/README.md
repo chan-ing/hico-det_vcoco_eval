@@ -56,10 +56,12 @@ This demo runs the MATLAB evaluation script and replicates our results in the pa
 "YOU NEED to install MATLAB tools by yourself"
 
 check your MATLAB
-    ```bash
+    ```Shell
     which matlab
     ```
-    ```
+
+    
+    ```Shell
     #to start matlab, just type
     matlab
     ```
